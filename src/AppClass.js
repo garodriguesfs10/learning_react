@@ -53,6 +53,7 @@ class AppClass extends Component {
         const newPersons = [...this.state.persons,newPerson]        
         await this.setState({persons:newPersons})
         console.log(this.state.persons)
+        console.log('just a change for git')
     }
   
     render(){
